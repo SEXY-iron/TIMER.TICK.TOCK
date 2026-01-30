@@ -7,15 +7,25 @@
 </head>
 <body>
       <div class= "container"> 
-        <!-- div container acts as a wrapper for the timer -->
-    
-      </div>
-    
-      <button id="start">Start</button>
-      <button id="stop">Stop</button>
-      <!-- two buttons with attributes (IDs) so Javascript can find them
-       Start button will begin counting / Stop will pause -->
+        <!-- div container acts as a wrapper for the timer and the buttons -->
+            <div class="timer">
+                  00 : 00 : 00 
+                
+        </div>
+      <div class="timer-button">
+         <!-- creates a class to group the buttons for the timer -->
+        <button id="start">Start</button>
+         <!-- A button with an ID (attribute) This wil be used to START the timer -->
+        <button id="stop">Pause</button>
+         <!-- A button with an ID (attribute) This wil be used to STOP the timer -->
+        <button id="reset">Reset</button>
+         <!-- A button with an ID (attribute) This wil be used to RESET the timer -->
+          </div>
+       </div>
+
+
        <script src="timer.js"></script>
+       <!-- links the timer.js file which contains the functionality of the timer -->
        <script type="text/javascript" src="main.js"></script>
 </body>
 
